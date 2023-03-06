@@ -1,0 +1,22 @@
+.colCabecera{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #19A9B1;
+    border-bottom: 1px solid #c0c0c0;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.col-2.colCabecera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    flex-direction: column;
+}
+
+.iconoVolver{
+    font-size: 30px;
+    color: #ffffff;
+}

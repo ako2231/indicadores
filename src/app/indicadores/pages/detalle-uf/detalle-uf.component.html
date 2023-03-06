@@ -1,0 +1,17 @@
+<div class="row filaGeneral">
+    <div class="col-2 colCabecera">
+        <a href=""><i class="fa-solid fa-circle-left iconoVolver"></i></a>
+        <p>Volver</p>
+    </div>
+    <div class="col-10 colCabecera">
+        <h1>Detalle UF</h1>
+    </div>
+
+    <div class="col-6 colTextos">
+        <p *ngFor="let item of listaResultados" class="parrafoFecha">Fecha: <span class="spanFecha">{{item.Fecha}}</span></p>
+    </div>
+    <div class="col-6 colTextos">
+        <p *ngFor="let item of listaResultados" class="parrafoValor">Valor: <span class="spanValor">{{item.Valor}}</span></p>
+    </div>
+</div>
+

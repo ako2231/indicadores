@@ -1,0 +1,47 @@
+.colCabecera{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #19A9B1;
+    border-bottom: 1px solid #c0c0c0;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.colLista{
+    padding: 0px 50px;
+    background-color: #EEEEEE;
+    height: 100vh;
+}
+
+.ulLista{
+    padding-left: 0;
+}
+
+.ulLista>li{
+    list-style-type: none;
+    border-bottom: 1px solid #c0c0c0;
+    padding: 10px 0;
+}
+.colListaIcono{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.colListaTexto>p{
+    color: #019FA9;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.colListaTexto>span{
+    color: #AECE22;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.iconoLista{
+    font-size: 18px;
+    color: #F9820C;
+}

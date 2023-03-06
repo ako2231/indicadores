@@ -1,0 +1,28 @@
+<div class="row filaGeneral">
+    <div class="col-2 colCabecera">
+        <a href=""><i class="fa-solid fa-circle-left iconoVolver"></i></a>
+        <p>Volver</p>
+    </div>
+    <div class="col-10 colCabecera">
+        <h1>Gráfico UF</h1>
+    </div>
+
+    <div class="col-12 colValor">
+        <p *ngFor="let item of listaUltimoResultado" class="parrafoValor">{{item.Valor}}</p>
+    </div>
+    <div class="col-12 colTextos">
+        <p>Nombre: <span class="spanTextos">UF</span></p>
+    </div>
+    <div class="col-12 colTextos">
+        <p>Fecha: <span *ngFor="let item of listaUltimoResultado" class="spanTextos">{{item.Fecha}}</span></p>
+    </div>
+    <div class="col-12 colTextos">
+        <p>Unidad de Medida: <span class="spanTextos">Pesos</span></p>
+    </div>
+    
+    <div class="col-12 colGrafico">
+        <p>Gráfico</p>
+    </div>
+</div>
+
+

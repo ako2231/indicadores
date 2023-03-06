@@ -1,0 +1,49 @@
+.colCabecera{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #19A9B1;
+    border-bottom: 1px solid #c0c0c0;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.col-2.colCabecera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    flex-direction: column;
+}
+
+.iconoVolver{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.col-12.colValor {
+    text-align: center;
+    padding: 30px;
+    font-size: 24px;
+    color: #666666;
+    font-weight: bold;
+}
+
+.col-12.colTextos {
+    text-align: center;
+    font-size: 18px;
+    color: #FF7D00;
+    font-weight: normal;
+}
+
+.spanTextos {
+    text-align: center;
+    font-size: 18px;
+    color: #19A9B1;
+    font-weight: normal;
+}
+
+.colGrafico{
+    text-align: center;
+    margin-top: 100px;
+}
